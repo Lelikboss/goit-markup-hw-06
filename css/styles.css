@@ -420,10 +420,10 @@ img{
 }
 /* footer */
 .footer-block{
-    flex-basis: calc((100% - 45px) / 2);
+    flex-basis: calc((50% - 45px) / 2);
 }
 .footer-block:last-child{
-    flex-basis: calc(100% - 15px);
+    flex-basis: calc(50% - 15px);
 }
 .address-footer{
     display: flex;
@@ -470,6 +470,7 @@ img{
 .footer-social .social-icon-link:focus{
     background-color: var(--accent-color);
 }
+
 .form-field{
     font-size: 16px;
     line-height: 1.25;
@@ -479,7 +480,7 @@ img{
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 16px;
-    
+    margin-right: 7px;
     width: 358px;
     color: var(--rare-color);
     border: 1px solid rgba(255, 255, 255, 0.3);
