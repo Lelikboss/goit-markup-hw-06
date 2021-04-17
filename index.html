@@ -63,7 +63,9 @@
       <section class="hero bg-hero">
         <div class="container hero-content">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-          <button class="button hero-button" type="button" data-modal-open>Заказать услугу</button>
+          <button class="button hero-button" type="button" data-modal-open>
+            Заказать услугу
+          </button>
         </div>
       </section>
       <section class="section about-section">
@@ -505,9 +507,12 @@
         <div class="footer-mailing footer-block">
           <h2 class="about-title footer-title">Подпишитесь на рассылку</h2>
           <form>
-            <label class="footer-label">
-              <input class="form-field" type="email" name="email" placeholder="E-mail">
-            </label>
+            <input
+              class="form-field"
+              type="email"
+              name="email"
+              placeholder="E-mail"
+            />
             <button class="button form-send" type="submit">
               Подписаться
               <svg class="footer-icon" width="24" height="24">
@@ -529,41 +534,53 @@
         </button>
         <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
         <form class="modal-form">
-          <label class="modal-form-label">
-            <span class="form-field-text">Имя</span>
-            <div class="form-position">
-              <input class="modal-form-field" type="name">
-            <svg class="form-field-icon">
-              <use href="./images/sprite.svg#icon-form-user"></use>
-            </svg>
-            </div>
-          </label>
-          <label class="modal-form-label">
-            <span class="form-field-text">Телефон</span>
-            <div class="form-position">
-              <input class="modal-form-field" type="tel">
-            <svg class="form-field-icon">
-              <use href="./images/sprite.svg#icon-form-phone"></use>
-            </svg>
-            </div>
-          </label>
-          <label class="modal-form-label">
-            <span class="form-field-text">Почта</span>
-            <div class="form-position">
-              <input class="modal-form-field" type="mail" name="email">
-            <svg class="form-field-icon">
-              <use href="./images/sprite.svg#icon-form-email"></use>
-            </svg>
-            </div>
-          </label>
+          <span class="form-field-text">Имя</span>
+          <div class="form-position">
+            <label class="modal-form-label">
+              <input class="modal-form-field" type="text" name="username" />
+              <svg class="form-field-icon">
+                <use href="./images/sprite.svg#icon-form-user"></use>
+              </svg>
+            </label>
+          </div>
+          <span class="form-field-text">Телефон</span>
+          <div class="form-position">
+            <label class="modal-form-label">
+              <input class="modal-form-field" type="tel" name="tel" />
+              <svg class="form-field-icon">
+                <use href="./images/sprite.svg#icon-form-phone"></use>
+              </svg>
+            </label>
+          </div>
+          <span class="form-field-text">Почта</span>
+          <div class="form-position">
+            <label class="modal-form-label">
+              <input class="modal-form-field" type="email" name="email" />
+              <svg class="form-field-icon">
+                <use href="./images/sprite.svg#icon-form-email"></use>
+              </svg>
+            </label>
+          </div>
           <div class="form-textarea">
             <span class="form-textarea-text">Комментарий</span>
-            <textarea class="modal-form-textarea" name="user_message" placeholder="Введите текст" cols="30" rows="10"></textarea>
+            <textarea
+              class="modal-form-textarea"
+              name="user_message"
+              placeholder="Введите текст"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
           <label class="check option">
-            <input class="check-input" type="checkbox" name="accept" value="check" />
+            <input
+              class="check-input"
+              type="checkbox"
+              name="accept"
+              value="check"
+            />
             <span class="check-box"></span>
-            <span class="form-check">Соглашаюсь с рассылкой и принимаю </span><a class="form-check-link" href="">Условия договора</a>
+            <span class="form-check">Соглашаюсь с рассылкой и принимаю </span
+            ><a class="form-check-link" href="">Условия договора</a>
           </label>
           <button class="button modal-form-button" type="submit">
             Отправить
@@ -574,6 +591,5 @@
 
     <!-- Подключение js -->
     <script src="./js/modal.js"></script>
-    
   </body>
 </html>
