@@ -226,7 +226,7 @@
     <!-- Footer -->
     <footer class="footer">
       <div class="container address-footer">
-        <div class="footer-coordinates">
+        <div class="footer-coordinates footer-block">
           <a class="logo logo-address" href="./index.html"
             >Web<span class="logo-footer">Studio</span></a
           >
@@ -243,7 +243,7 @@
             >
           </address>
         </div>
-        <div class="footer-social">
+        <div class="footer-social footer-block">
           <h2 class="about-title footer-title">присоединяйтесь</h2>
           <ul class="list social-icons">
             <li class="social-icon">
@@ -295,6 +295,20 @@
               </a>
             </li>
           </ul>
+        </div>
+        <div class="footer-mailing footer-block">
+          <h2 class="about-title footer-title">Подпишитесь на рассылку</h2>
+          <form>
+            <label>
+              <input class="form-field" type="email" name="email" placeholder="E-mail">
+            </label>
+            <button class="button form-send" type="submit">
+              Подписаться
+              <svg class="footer-icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-form-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
