@@ -583,8 +583,6 @@ img{
 }
 .project-hidden{
     position: absolute;
-
-    /* Новое */
     top: 0;
     left: 0;
     width: 100%;
@@ -604,8 +602,7 @@ img{
     background: rgba(33, 150, 243, 0.9);
 
     transform: translatey(100%);
-   /* transition: transform 250ms ease;*/
-   transition: transform var(--time-hover);
+    transition: transform var(--time-hover);
 }
 .project-hidden p {
     margin-bottom: 0;
