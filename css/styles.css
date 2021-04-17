@@ -414,10 +414,10 @@ img{
     border: 1px solid currentColor;
     border-radius: 4px;
     transition: color var(--time-hover);
-    outline: none;
 }
 .partners-link .icon:hover,
 .partners-link .icon:focus{
+    outline: none;
     fill: var(--accent-color);
 }
 /* footer */
