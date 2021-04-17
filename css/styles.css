@@ -723,6 +723,12 @@ img{
 
     transition: border-color var(--time-hover);
 }
+.modal-form-field:-webkit-autofill,
+.modal-form-field:-webkit-autofill:hover, 
+.modal-form-field:-webkit-autofill:focus{
+    -webkit-text-fill-color: var(--complementary-color);
+    -webkit-box-shadow: 0 0 0px 1000px var(--rare-color) inset;
+}
 .modal-form-field:focus{
     outline: none;
     border-color: var(--accent-color);
