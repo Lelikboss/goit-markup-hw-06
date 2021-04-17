@@ -398,6 +398,7 @@ img{
     display: flex;
 }
 .partners-item{
+    outline: none;
     --grid-item: 6;
 }
 .partners-item .icon{
